@@ -16,7 +16,7 @@ ul{
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    width: 200px;
+    width: 240px;
     padding: 10px 0;
 }
 /* Inizio HEADER */
@@ -97,4 +97,68 @@ header .container_header{
     margin-top: 50px;
 }
 /* Fine SECTION 1 */
+/* Container e row comuni */
+.container_section{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.row_section{
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+    align-items: stretch;
+}
 /* Inizio SECTION 2 */
+.col_sec_two{
+    width: calc(100% / 3 - 30px);
+    border: 1px solid rgba(0, 0, 0, 0.301); 
+}
+.col_sec_two.margin{
+    margin: 0 15px;
+}
+.payment_plan{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.content_sec_two{
+    width: 80%;
+    line-height: 25px;   
+    margin:0 auto;
+}
+.payment_name, .li_info{
+    margin-bottom: 15px;
+}
+.price{
+    margin-bottom: 50px;
+}
+.flex_info{
+    display: flex;
+    align-items: baseline;
+}
+.info_plan{
+    margin-left: 5px;
+}
+.trial{
+    margin-top:50px ;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hr_sec_two{
+    width: 55px;
+    margin: 30px 0 50px 0;
+}
+.point{
+    margin-bottom: 30px;
+}
+
+/* Inizio colonna sotto */
+.col_sec_two_down{
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 20px;
+}
