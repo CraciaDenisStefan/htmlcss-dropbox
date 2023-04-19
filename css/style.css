@@ -3,3 +3,50 @@
     margin: 0;
     box-sizing: border-box;
  }  
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Classi comuni */
+ul{
+    list-style-type: none;
+}
+.button{
+    border: none;
+    background-color: rgb(1, 94, 233);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 200px;
+    padding: 5px 0;
+}
+/* Inizio HEADER */
+header .container_header{
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+ }
+.row_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .col_header{
+    padding: 20px;
+ }
+ .logo_header{
+    vertical-align: middle;
+ }
+ .ul_header{
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .li_header{
+    display: inline-block;
+    margin: 0 10px 0 30px;
+    color: rgb(39, 39, 39);
+}
+.button.start{
+    width: 50px;
+}
+/* Fine HEADER */
