@@ -17,14 +17,17 @@ ul{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     width: 200px;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 /* Inizio HEADER */
 header .container_header{
-    width: 100vw;
+    width: 100%;
     background-color: white;
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
+
  }
 .row_header{
     width: 100%;
@@ -47,6 +50,51 @@ header .container_header{
     color: rgb(39, 39, 39);
 }
 .button.start{
-    width: 50px;
+    padding: 5px 0;
+    width: 60px;
 }
 /* Fine HEADER */
+/* Inizio MAIN */
+.container_main{
+    margin-top: 67px;
+}
+/* Inizio SECTION 1 */
+.section_one{
+    width: 100%;
+    height: 750px;
+    background-color: rgba(43, 121, 185, 0.397);
+}
+.container_section_one{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.title_sec_one{
+    font-size: 90px;
+}
+.row_section_one{
+    width: 100%;
+    display: flex;
+}
+.col_section_one{
+    margin-top: 50px;
+}
+.col_section_one.left{
+    width: 30%;
+}
+.col_section_one.right{
+    width: 70%;
+}
+.button.jumbo{
+    width: 180px;
+    margin: 30px 0;
+}
+.jumbo_img{
+    width: 100%;
+}
+.arrow_sec_one{
+    font-size: 50px;
+    margin-top: 50px;
+}
+/* Fine SECTION 1 */
+/* Inizio SECTION 2 */
