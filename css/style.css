@@ -102,6 +102,7 @@ header .container_header{
     width: 55%;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 .row_section{
     display: flex;
@@ -184,3 +185,28 @@ header .container_header{
     text-align: center;
 }
 /* FINE colonna sotto */
+/* Inizio SECTION 3 */
+.col_sec_three_left{
+    width: 60%;
+}
+.img_sec3{
+    width: 100%;
+}
+.col_sec_three_right{
+    width: 40%;
+}
+.content_sec_three{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.describtion_partner{
+    margin: 15px 0 25px 0;
+}
+.button.partner{
+    width: 150px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+/* Fine SECTION 3 */
