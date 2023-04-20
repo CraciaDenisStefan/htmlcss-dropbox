@@ -329,5 +329,28 @@ header .container_header{
 }
 /* Fine SECTION 7 */
 /* Inizio SECTION 8 */
-
+.row_section.direction{
+    flex-direction: column;
+    margin-top: 60px;
+}
+.col_questions{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0;
+}
+.col_questions.up, .col_questions.middle{
+    border-top: 1px solid rgba(0, 0, 0, 0.301);
+}
+.col_questions.down, .col_questions.middle{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+.content_questions_left{
+    width: 90%;
+}
+.content_questions_right{
+    width: 10%;
+    text-align: center;
+}
 /* Fine SECTION 8 */
+/* FINE MAIN */
