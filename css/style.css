@@ -231,8 +231,81 @@ header .container_header{
     margin-bottom: 50px;
 }
 /* Fine SECTION 5 */
-/* Inizio SECTION 6 */
-
+/* Inizio SECTION 6  CUBI DEL MARCHIO*/
+.container_sec_six{
+    max-width: 100vw;
+}
+.row_sec_six{
+    display: flex;
+    width: 100%;
+}
+.col_sec_six{
+    width: calc(100% / 3);
+}
+.row_col_six{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.brand_cube{
+    width: calc(100% / 2);
+    position: relative;  
+}
+.img_sec_brand{
+    width: 50%;
+    filter:invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.col_sec_six.background{
+    background-color: rgb(238, 238, 238);
+}
+.content_col_sec_six{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+#w50{
+    width: 50%;
+}
+#under_logo{
+    width: 100px;
+    margin: 50px 0;
+    color:rgba(0, 0, 0, 0.301);
+}
+.author{
+    margin-top: 50px;
+}
+/* Colori dei quadrati nella section 6 */
+#designit{
+   background-color: #A2D39B;
+   border: 15px solid rgba(255, 253, 253, 0.342);
+}
+#arizona{
+    background-color: #61082B;
+}
+#florida{
+    background-color: #0093CE;
+}
+#topps{
+    background-color: #FF1C1C;
+}
+#bicycle{
+    background-color: #ce1717;
+}
+#hearst{
+    background-color: #B4D0E7;
+}
+#lonely{
+    background-color: #0D2481;
+}
+#clear{
+    background-color:  #fdd31a;
+}
 /* Fine SECTION 6 */
 /* Inizio SECTION 7 */
 .section_seven{
