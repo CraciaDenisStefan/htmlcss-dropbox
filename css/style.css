@@ -108,7 +108,6 @@ header .container_header{
     display: flex;
     width: 100%; 
     justify-content: space-between;
-    align-items: stretch;
 }
 .img_sec{
     width: 100%;
@@ -232,3 +231,28 @@ header .container_header{
     margin-bottom: 50px;
 }
 /* Fine SECTION 5 */
+/* Inizio SECTION 6 */
+
+/* Fine SECTION 6 */
+/* Inizio SECTION 7 */
+.section_seven{
+    background-color: rgba(43, 121, 185, 0.397);
+    padding: 10px 0 10px 0;
+}
+.col_sec_seven_left{
+    width: 60%;
+    color: rgb(107, 30, 30);
+}
+.col_sec_seven_right{
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+.button.sec_seven{
+    background-color: white;
+    color: black;
+}
+/* Fine SECTION 7 */
+/* Inizio SECTION 8 */
+
+/* Fine SECTION 8 */
