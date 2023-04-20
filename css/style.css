@@ -110,6 +110,14 @@ header .container_header{
     align-items: stretch;
 }
 /* Inizio SECTION 2 */
+.title_h2{
+    font-size: 45px;
+}
+.checkbox{
+    display: inline-block;
+    margin: 50px 20px 40px 0;
+
+}
 .col_sec_two{
     width: calc(100% / 3 - 30px);
     border: 1px solid rgba(0, 0, 0, 0.301); 
@@ -124,9 +132,10 @@ header .container_header{
     margin-bottom: 30px;
 }
 .content_sec_two{
-    width: 80%;
+    width: 82%;
     line-height: 25px;   
     margin:0 auto;
+    padding-bottom:40px ;
 }
 .payment_name, .li_info{
     margin-bottom: 15px;
@@ -134,11 +143,14 @@ header .container_header{
 .price{
     margin-bottom: 50px;
 }
+.mounth{
+    color: rgb(145, 145, 145);
+}
 .flex_info{
     display: flex;
     align-items: baseline;
 }
-.info_plan{
+.info_user{
     margin-left: 5px;
 }
 .trial{
@@ -153,12 +165,22 @@ header .container_header{
 .point{
     margin-bottom: 30px;
 }
-
 /* Inizio colonna sotto */
+.row_section.two_down{
+    margin-top: 30px;
+}
 .col_sec_two_down{
     width: 100%;
-    border: 1px solid black;
-    height: 100px;
-    background-color: yellow;
+    border: 1px solid rgba(0, 0, 0, 0.301);
     margin-top: 20px;
 }
+.col_sec_two_down_left{
+    width: 67%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.col_sec_two_down_right{
+    width: 30%;
+    text-align: center;
+}
+/* FINE colonna sotto */
