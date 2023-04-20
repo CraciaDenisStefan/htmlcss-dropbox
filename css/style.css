@@ -110,6 +110,9 @@ header .container_header{
     justify-content: space-between;
     align-items: stretch;
 }
+.img_sec{
+    width: 100%;
+}
 /* Inizio SECTION 2 */
 .title_h2{
     font-size: 45px;
@@ -117,7 +120,6 @@ header .container_header{
 .checkbox{
     display: inline-block;
     margin: 50px 20px 40px 0;
-
 }
 .col_sec_two{
     width: calc(100% / 3 - 30px);
@@ -166,7 +168,7 @@ header .container_header{
 .point{
     margin-bottom: 30px;
 }
-/* Inizio colonna sotto */
+/* Inizio colonna sotto section 2 */
 .row_section.two_down{
     margin-top: 30px;
 }
@@ -184,13 +186,10 @@ header .container_header{
     width: 30%;
     text-align: center;
 }
-/* FINE colonna sotto */
+/* FINE colonna sotto section 2 */
 /* Inizio SECTION 3 */
 .col_sec_three_left{
     width: 60%;
-}
-.img_sec3{
-    width: 100%;
 }
 .col_sec_three_right{
     width: 40%;
@@ -210,3 +209,17 @@ header .container_header{
     border: 1px solid black;
 }
 /* Fine SECTION 3 */
+/* Inizio SECTION 4 */
+.row_section.col_6{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.col_sec_four{
+    width: calc(100% / 3 - 20px); 
+    margin-top: 50px; 
+}
+.title_business_pack{
+    margin-bottom: 20px;
+}
+/* Fine SECTION 4 */
+/* Inizio SECTION 5 */
