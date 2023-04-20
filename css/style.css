@@ -97,7 +97,7 @@ header .container_header{
     margin-top: 50px;
 }
 /* Fine SECTION 1 */
-/* Container e row comuni */
+/* CLASSI COMUNI */
 .container_section{
     width: 55%;
     margin: 0 auto;
@@ -113,10 +113,10 @@ header .container_header{
 .img_sec{
     width: 100%;
 }
-/* Inizio SECTION 2 */
 .title_h2{
     font-size: 45px;
 }
+/* Inizio SECTION 2 */
 .checkbox{
     display: inline-block;
     margin: 50px 20px 40px 0;
@@ -223,3 +223,12 @@ header .container_header{
 }
 /* Fine SECTION 4 */
 /* Inizio SECTION 5 */
+.row_section_five{
+    width: 70%;
+    margin:0;
+    margin-top: 200px;
+}
+.title_h2.sec_five{
+    margin-bottom: 50px;
+}
+/* Fine SECTION 5 */
