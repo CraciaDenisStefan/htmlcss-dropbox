@@ -63,15 +63,15 @@ header .container_header{
     width: 100%;
     background-color: rgba(43, 121, 185, 0.397);
 }
-.container_section_one{
+.container_section_one, .container_footer{
     width: 65%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .title_sec_one{
     font-size: 90px;
 }
-.row_section_one{
+.row_section_one, .row_footer{
     width: 100%;
     display: flex;
 }
@@ -354,3 +354,34 @@ header .container_header{
 }
 /* Fine SECTION 8 */
 /* FINE MAIN */
+/* Inizio FOOTER ( usiamo container e row uguali alla section 1) */
+footer{
+    background-color:black;
+}
+.row_footer{
+    justify-content: space-between;
+}
+.col_footer{
+    width: calc(100% / 5 - 80px);
+    color: white;
+    margin-right: 40px;
+}
+.h3_title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ul_footer{
+    line-height: 35px;
+    font-size: 15px;
+}
+.language_footer{
+    color: #9b9a9a;
+    width: 10%;
+    border-top: 1px solid white;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+.fa-sharp{
+    margin-right: 5px;
+}
+/* Fine FOOTER */
