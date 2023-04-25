@@ -119,10 +119,34 @@ header .container_header{
     font-size: 45px;
 }
 /* Inizio SECTION 2 */
-.checkbox{
-    display: inline-block;
-    margin: 50px 20px 40px 0;
+/* Inizio custom RADIO button */
+.radio_container{
+    margin: 80px 0 50px 0;
 }
+.container_b {
+    position: relative;
+    margin-right: 50px;
+    padding-left: 25px; 
+}
+.container_b input {
+    position: absolute;
+    opacity: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 5px;
+    border: 3px solid #ccc; 
+}
+.container_b input:checked ~ .checkmark {
+    border: 5px solid #145eff;
+}
+/* Fine custom RADIO button */
 .col_sec_two{
     width: calc(100% / 3 - 30px);
     border: 1px solid rgba(0, 0, 0, 0.301); 
